@@ -7,21 +7,33 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Discover the amazing paintings and buildings here in Berlin!">
-  <meta name="author" content="Camille">
+  <meta name="author" content="Camille and Jenna">
 
   <title>Blog Home - Start Bootstrap Template</title>
 
-  <!-- Bootstrap Custom css template for the Home -->
+  <!-- Bootstrap Custom css template for the Home page -->
   <link href="bootstrap_home.css" rel="stylesheet">
 
-  <!--Bootstrap Custom css template for the Post -->
+  <!--Bootstrap Custom css template for the Postpost page-->
   <link href="bootstrap_blog.css" rel="stylesheet">
 
-  <!-- Bootstrap Custom theme for the whole blog -->
+  <!-- Bootstrap Custom theme for the whole Website -->
   <link href="bootstrap_theme.css" rel="stylesheet">
 
-  <!-- css for the Home -->
-  <link href="index_home.css" rel="stylesheet">
+  <!-- Custom css for the Home page
+      (if necessary it will overwrite the boostrap.css, that's why it comes after in the html head)-->
+    <link href="index_home.css" rel="stylesheet">
+
+  <!-- Custom css for the Blogpost page
+  (if necessary it will overwrite the boostrap.css, that's why it comes after in the html head)-->
+  <link href="blogpost.css" rel="stylesheet">
+  
+    <!-- Custom css for the Contact page
+  (if necessary it will overwrite the boostrap.css, that's why it comes after in the html head)-->
+  <link href="contact.css" rel="stylesheet">
+
+  <!-- Font Awesome's CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 </head>
 
@@ -30,7 +42,12 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-primary">
     <div class="container">
-      <a class="navbar-brand" href="#">Start Bootstrap</a>
+      <!-- Brand -->
+      <a class="navbar-brand" href="index_home.html">
+        <!-- icon -->
+        <i class="fas fa-camera-retro"></i> <span id="blog-name">Berlin snapshots</span>
+      </a>
+      <!-- Links -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -42,16 +59,23 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="blogpost.html">Posts</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="gallery.html">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
+      <!-- Search -->
+      <!-- <form class="form-inline">
+        <input class="form-control form-control-sm mr-sm-0" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            <i class="fas fa-search"></i>
+        </button>
+      </form> -->
     </div>
   </nav>
 
@@ -196,10 +220,13 @@
     <!-- /.container -->
   </footer>
 
-  <!-- Bootstrap core JavaScript and Jquery -->
-  <script src="bootstrap_home.bundle.js"></script>
+  <!-- Bootstrap core JavaScript and Jquery for the HomePage-->
   <script src="bootstrap_home.js"></script>
   <script src="jquery_home.js"></script>
+
+  <!-- Bootstrap core JavaScript and Jquery for the BlogPostPage-->
+  <script src="bootstrap_blogpost.js"></script>
+  <script src="jquery_blogpost.js"></script>
 
 </body>
 

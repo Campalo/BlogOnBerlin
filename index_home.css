@@ -1,0 +1,36 @@
+body {
+    padding-top: 5vh;
+}
+
+@media screen and (max-width: 350px) {
+    body {
+        padding-top: 10vh;
+    }
+    .fa-camera-retro {
+        font-size: 1vh;
+        padding: 0px;
+        margin: 0px;
+    }
+    #blog-name {
+        font-size: 1vh;
+        padding: 0px;
+        margin: 0px;
+    }
+    .navbar-toggler {
+        font-size: 2vh;
+        padding: 0px;
+        margin: 0px;
+    }
+}
+
+.fa-camera-retro {
+    font-size: 3vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+#blog-name {
+    font-size: 3vh;
+    padding: 0px;
+    margin: 0px;
+}
