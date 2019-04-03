@@ -49,7 +49,7 @@ HEADER
 
 header {
     /*The background image covers the 100% of the viewport" */
-    background-image: url(img/paintings/statue.jpg);
+    background-image: url("Img/paintings/statue.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
