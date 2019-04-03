@@ -1,0 +1,19 @@
+footer .container {
+    padding-left: 200px;
+    padding-right:200px;
+}
+
+
+footer nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.fa-linkedin, .fa-github-square {
+    font-size: 1.8rem;
+    margin-left: 5px;
+    margin-right: 5px;
+}
