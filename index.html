@@ -10,7 +10,7 @@
   <meta name="author" content="Camille and Jenna">
 
   <title>Blog Home - Start Bootstrap Template</title>
-
+  
   <!-- Bootstrap Custom css template for the Home page -->
   <link href="Bootstrap/bootstrap_home.css" rel="stylesheet">
 
@@ -23,14 +23,6 @@
   <!-- Custom css for the Home page
       (if necessary it will overwrite the boostrap.css, that's why it comes after in the html head)-->
   <link href="index.css" rel="stylesheet">
-
-  <!-- Custom css for the Blogpost page
-  (if necessary it will overwrite the boostrap.css, that's why it comes after in the html head)-->
-  <link href="blogpost.css" rel="stylesheet">
-  
-  <!-- Custom css for the Contact page
-  (if necessary it will overwrite the boostrap.css, that's why it comes after in the html head)-->
-  <link href="contact.css" rel="stylesheet">
 
   <!-- Font awesome's CDN - svg version -->
   <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
@@ -85,57 +77,51 @@
 
   <!-- Page Content -->
   <div class="container">
-
+    <div class="row row_header">
+        <div class="col-lg-6 col-lg-offset-3 text-center">  
+            <h2><span class="ion-minus"></span> -  Blog Posts  - <span class="ion-minus"></span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis  dis parturient montes, nascetur ridiculus </p><br>
+        </div> 
+    </div>  
     <div class="row">
-
-      <!-- Blog Entries Column -->
-      <div class="col-md-8">
-
-        <p class="my-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non soluta quia porro culpa atque nostrum nemo dolorum. Nemo, commodi sapiente? Est atque, ducimus eos commodi perspiciatis maxime quia ipsam voluptas?
-        </p>
-
-        <!-- Blog Post -->
-        <div class="card mb-4">
-          <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
-          <div class="card-body">
-            <h2 class="card-title">Post Title</h2>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-            <a href="#" class="btn btn-primary">Read More &rarr;</a>
+        <div class="card-deck">
+          <div class="card">
+            <a href="blogpost.html#fitst_blog">
+              <img src="Img/paintings/woman.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">The Berlin Photography Guide: The top Photo Spots and Walks</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At quas, necessitatibus in rem velit voluptate repudiandae tenetur nihil id dolores libero molestiae doloremque aspernatur, sit recusandae impedit dolore vero repellendus?  
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 days ago</small></p>
+              </div>
+            </a>
+            </div>
+            <div class="card">
+            <a href="blogpost.html#second_blog">  
+              <img src="Img/paintings/colorful.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">The Aesthetics of Power: Inside German Bundestag and Chancellery</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis natus soluta iusto non, veniam quidem odit quod eos numquam consequuntur, fuga sunt provident beatae obcaecati architecto pariatur laborum. Tempore, recusandae.
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated a week ago</small></p>
+              </div>
+            </a>  
+            </div>
+            <div class="card">
+            <a href="blogpost.html#third_blog">
+              <img src="Img/buildings/square_sky.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Folsom. A Berlin Photo Essay</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, iste, architecto dolor illo tenetur voluptatibus ad consequatur eum voluptatem, nam sit numquam reiciendis facere vitae velit doloribus harum ipsum enim.
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated a week ago</small></p>
+              </div>
+            </a>
+            </div>
           </div>
-          <div class="card-footer text-muted">
-            Posted on January 1, 2017 By
-             <a href="#">Start Bootstrap</a>
-          </div>
-        </div>
-
-        <!-- Blog Post -->
-        <div class="card mb-4">
-          <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
-          <div class="card-body">
-            <h2 class="card-title">Post Title</h2>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-            <a href="#" class="btn btn-primary">Read More &rarr;</a>
-          </div>
-          <div class="card-footer text-muted">
-            Posted on January 1, 2017 By
-             <a href="#">Start Bootstrap</a>
-          </div>
-        </div>
-
-        <!-- Blog Post -->
-        <div class="card mb-4">
-          <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
-          <div class="card-body">
-            <h2 class="card-title">Post Title</h2>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-            <a href="#" class="btn btn-primary">Read More &rarr;</a>
-          </div>
-          <div class="card-footer text-muted">
-            Posted on January 1, 2017 By
-             <a href="#">Start Bootstrap</a>
-          </div>
-        </div>
-
         <!-- Pagination -->
         <!-- <ul class="pagination justify-content-center mb-4">
           <li class="page-item">
