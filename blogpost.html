@@ -30,43 +30,42 @@
 
 <body>
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-primary">
-    <div class="container">
-      <!-- Brand -->
-      <a class="navbar-brand" href="index.html">
-        <!-- Homepage Logo using camera icon and Homepage name -->
-        <h3>📷 Berlin's Walls</h3>
-      </a>
-      <!-- Links -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="blogpost.html">Posts</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="gallery.html">Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-      <!-- Search Bar -->
-      <!-- <form class="form-inline">
-        <input class="form-control form-control-sm mr-sm-0" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-            <i class="fas fa-search"></i>
+      <div class="container">
+        <!-- Brand -->
+        <a class="navbar-brand" href="index.html">
+          <!-- Homepage Logo using camera icon and Homepage name -->
+          <i class="fas fa-camera-retro"></i> <span id="blog-name">Berlin snapshots</span>
+        </a>
+        <!-- Links -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-      </form> -->
-    </div>
-  </nav>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blogpost.html">Posts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Search Bar -->
+        <!-- <form class="form-inline">
+          <input class="form-control form-control-sm mr-sm-0" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              <i class="fas fa-search"></i>
+          </button>
+        </form> -->
+      </div>
+    </nav>
 
 
   <!-- Page Content -->
@@ -75,22 +74,23 @@
     <h1 class="container">Photograper's eye</h1>
  </header> 
 
-  <!-- Page Content -->
-  <div class="container article-box" id="first_blog">
+  <!-- First Post -->
+  <div class="container article-box border-top" id="first_blog">
 
-    <!-- Portfolio Item Heading -->
+    <!--Post Title -->
     <h2 class="my-4 post-title">The Berlin Photography Guide: The top Photo Spots and Walks
     </h2>
 
-    <!-- Portfolio Item Row -->
+    <!-- Img and Author -->
     <div class="row">
 
       <div class="col-md-8">
-        <img class="img-fluid img-size" src="Img/paintings/woman.jpg" alt="woman">
+        <img class="img-fluid img-size rounded" src="Img/paintings/woman.jpg" alt="woman">
       </div>
 
-      <div class="col-md-4 text-primary">
-        <p>Posted on April 2, 2019</p>
+
+      <div class="col-md-4 author-box">
+        <p>Posted on Posted on Aprin 2, 2019</p>
         <p>
           By
           <img class="img-fluid rounded-circle profile-pic" src="https://avatars2.githubusercontent.com/u/20438637?s=460&v=4"> 
@@ -98,7 +98,9 @@
         </p>
         
         <p>About the author...</br>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint voluptatem est officiis amet iusto odit.
+          <small>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint voluptatem est officiis amet iusto odit.
+          </small>
         </p>
 
       </div>
@@ -107,7 +109,7 @@
     <!-- /.row -->
 
     <!-- article text -->
-    <div class="row">
+    <div class="row article">
  
         <p class="lead">Lorem ipsum dolor sit amet, consectetur.</p>
       
@@ -135,23 +137,23 @@
     <!-- /.row -->
 
   </div>
-  <!-- /.container article-box -->
+  <!-- /.container -->
 
-  <!-- Page Content -->
-  <div class="container article-box" id="second_blog">
+  <!-- Second Post -->
+  <div class="container article-box border-top" id="second_blog">
 
-    <!-- Portfolio Item Heading -->
+    <!--Post Title -->
     <h2 class="my-4 post-title">The Aesthetics of Power: Inside German Bundestag and Chancellery
     </h2>
 
-    <!-- Portfolio Item Row -->
+    <!-- Img and Author -->
     <div class="row">
 
       <div class="col-md-8">
-        <img class="img-fluid img-size" src="Img/paintings/colorful.jpg" alt="colorful painting">
+        <img class="img-fluid img-size rounded" src="Img/paintings/colorful.jpg" alt="colorful painting">
       </div>
 
-      <div class="col-md-4 text-primary">
+      <div class="col-md-4 author-box">
         <p>Posted on March 30, 2019</p>
         <p>
           By
@@ -160,7 +162,9 @@
         </p>
         
         <p>About the author...</br>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint voluptatem est officiis amet iusto odit.
+          <small>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint voluptatem est officiis amet iusto odit.
+          </small>
         </p>
 
       </div>
@@ -169,7 +173,7 @@
     <!-- /.row -->
 
     <!-- article text -->
-    <div class="row">
+    <div class="row article">
  
         <p class="lead">Lorem ipsum dolor sit amet, consectetur.</p>
       
@@ -197,23 +201,23 @@
     <!-- /.row -->
 
   </div>
-  <!-- /.container article-box -->
+  <!-- /.container -->
 
-  <!-- Page Content -->
-  <div class="container article-box" id="third_blog">
+  <!-- Third Post -->
+  <div class="container article-box border-top" id="third_blog">
 
-    <!-- Portfolio Item Heading -->
+    <!--Post Title -->
     <h2 class="my-4 post-title">Folsom. A Berlin Photo Essay
     </h2>
   
-    <!-- Portfolio Item Row -->
+    <!-- Img and Author -->
     <div class="row">
   
       <div class="col-md-8">
-        <img class="img-fluid img-size" src="Img/buildings/square.jpg" alt="square sky bildings">
+        <img class="img-fluid img-size rounded" src="Img/buildings/square_sky.jpg" alt="square sky bildings">
       </div>
   
-      <div class="col-md-4 text-primary">
+      <div class="col-md-4 author-box">
         <p>Posted on March 27, 2019</p>
         <p>
           By
@@ -222,7 +226,9 @@
         </p>
         
         <p>About the author...</br>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint voluptatem est officiis amet iusto odit.
+          <small>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint voluptatem est officiis amet iusto odit.
+          </small>
         </p>
   
       </div>
@@ -231,7 +237,7 @@
     <!-- /.row -->
   
     <!-- article text -->
-    <div class="row">
+    <div class="row article">
   
  
         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, vero, obcaecati, aut, error quam sapiente nemo saepe quibusdam sit excepturi nam quia corporis eligendi eos magni recusandae laborum minus inventore?</p>
