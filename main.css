@@ -17,6 +17,17 @@ h2 {
     font-family: 'Courier New', Courier, monospace;
 }
 
+hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: (var(--primary)) -moz-use-text-color #FFFFFF;
+    border-style: solid none;
+    border-width: 1px;
+  }
+
 
 /*****
 NAV
