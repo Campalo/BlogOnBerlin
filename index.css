@@ -68,6 +68,21 @@ h1 {
 
 
 /*****
+ CARD
+*****/
+
+.card > a {
+    text-decoration: none;  /* remove underline when hover on the link */
+}
+
+.row_header {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*****
 FOOTER
 *****/
 
