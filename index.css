@@ -2,6 +2,10 @@
 HEADER
 *****/
 
+header h1 {
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.6);
+}
+
 header {
     /*The background image covers the 100% of the viewport" */
     background-image: url("Img/paintings/statue.jpg");
@@ -26,6 +30,9 @@ header h1 {
 /*****
  CARD
 *****/
+.card-img-top {
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.6);
+}
 
 .card > a {
     text-decoration: none;  /* remove underline when hover on the link */
