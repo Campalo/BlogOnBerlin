@@ -64,8 +64,9 @@ img {
 }
 
 @media screen and (max-width: 425px) {  /*for smartphone */
-img {
-    height: 80vw;
+    img {
+        height: 80vw;
+    }
 }
 
 /*****
