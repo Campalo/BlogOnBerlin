@@ -1,0 +1,30 @@
+.map-container-section {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-container-section iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+p, input, textarea {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fas {
+    color: #009393;
+}
+
+.form-control {
+    border-style: solid;
+    background-color: #009393;
+    opacity: 0.2;
+    border: #009393;
+}
+
