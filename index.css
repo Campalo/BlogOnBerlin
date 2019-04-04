@@ -73,12 +73,21 @@ h1 {
 
 .card > a {
     text-decoration: none;  /* remove underline when hover on the link */
+    color: black;
+}
+
+.card > a:hover{
+    color: var(--primary);
 }
 
 .row_header {
     margin-top: 3vh;
     display: flex;
     justify-content: center;
+}
+
+.card-title {
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
