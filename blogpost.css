@@ -9,10 +9,6 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-.img-thumbnail {
-    border: 1px;
-}
-
 .border {
     border-bottom: 1px;
     border-bottom-color: gray;
@@ -29,4 +25,9 @@
     width: 40px;
     height: 40px;
     object-fit: cover;
+}
+
+/* to move to bottom */
+.author-box {
+    margin-top: auto;
 }
