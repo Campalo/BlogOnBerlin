@@ -17,14 +17,4 @@ p, input, textarea {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.fas {
-    color: #009393;
-}
-
-.form-control {
-    border-style: solid;
-    background-color: #009393;
-    opacity: 0.2;
-    border: #009393;
-}
 
