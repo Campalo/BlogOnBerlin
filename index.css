@@ -3,27 +3,31 @@ HEADER
 *****/
 
 header {
-    /*The background image covers the 100% of the viewport" */
     background-image: url("Img/paintings/statue.jpg");
-    background-repeat: no-repeat;
+    /*The background image covers the 100% of the viewport" */
+    height: 100%;
     background-position: center;
-    background-size: cover;
-    height: 100%;  
-    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover; 
     /*The title is centered in the header*/
     display: flex;
+    justify-content: center;
     align-items: center; 
 }
 
 header h1 {
     line-height: 10vh;
+    text-align: center;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.6);
     background-color: rgba(52, 58, 64, 0.5); /* using --gray-dark with opacity */
 }
-
 
 /*****
  CARD
 *****/
+.card-img-top {
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.6);
+}
 
 .card > a {
     text-decoration: none;  /* remove underline when hover on the link */

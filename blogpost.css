@@ -1,4 +1,35 @@
+/*****
+HEADER
+*****/
 
+header {
+    background-image: url("Img/paintings/bird.jpg");
+    /*The background image covers the 80% of the viewport" */
+    height: 80%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    /*The title is centered in the header*/
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+header h1 {
+    line-height: 10vh;
+    text-align: center;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.6);
+    background-color: rgba(240, 240, 240, 0.5); /* using --light with opacity */
+}
+
+
+/****
+ARTICLE
+*****/
+
+img {
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.6);
+}
 
 .article-box {
     padding-top: 5vh;
