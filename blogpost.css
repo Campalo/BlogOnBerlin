@@ -1,5 +1,5 @@
 body {
-    padding-top: 5vh;
+    margin-top: 5vh;
 }
 
 /*****
@@ -36,6 +36,33 @@ NAV
     font-size: 3vh;
     padding: 0px;
     margin: 0px;
+}
+
+
+/*****
+ POSTS
+*****/
+
+
+
+.post-title {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#blog_box {
+    margin-bottom: 2vh;
+}
+
+.post-pic {
+    object-fit: cover;
+    width: 100%; 
+    height: 25vw; /*100% / 4 */
+}
+
+@media screen and (max-width: 425px) {  /*for smartphone */
+    .post-pic {
+        height: 80vw;
+    }
 }
 
 /*****
