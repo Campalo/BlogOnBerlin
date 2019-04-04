@@ -8,8 +8,8 @@ body {
 }
 
 h1 {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 h2 {
@@ -17,21 +17,19 @@ h2 {
     font-family: 'Courier New', Courier, monospace;
 }
 
+h3 {
+    color : (var(--white));
+}
+
 
 /*****
 NAV
 *****/
+.navbar {
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.6);
+}
+
 @media screen and (max-width: 350px) {  /*for smartphone */
-    .fa-camera-retro {
-        font-size: 1vh;
-        padding: 0px;
-        margin: 0px;
-    }
-    #blog-name {
-        font-size: 1vh;
-        padding: 0px;
-        margin: 0px;
-    }
     .navbar-toggler {
         font-size: 2vh;
         padding: 0px;
@@ -39,23 +37,10 @@ NAV
     }
 }
 
-.fa-camera-retro {
-    font-size: 3vh;
-    padding: 0px;
-    margin: 0px;
-}
-
-#blog-name {
-    font-size: 3vh;
-    padding: 0px;
-    margin: 0px;
-}
-
 
 /*****
 FOOTER
 *****/
-
 footer .container {
     padding-left: 200px;
     padding-right:200px;
