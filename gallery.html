@@ -10,6 +10,12 @@
 
   <title>Blog Home - Start Bootstrap Template</title>
 
+  <!-- Bootstrap Custom css template for the Home page -->
+  <link href="Bootstrap/bootstrap_home.css" rel="stylesheet">
+
+  <!--Bootstrap Custom css template for the Postpost page-->
+  <link href="Bootstrap/bootstrap_blog.css" rel="stylesheet">
+
   <!-- Bootstrap Custom theme for the whole Website -->
   <link href="Bootstrap/bootstrap_theme.css" rel="stylesheet">
   
@@ -66,28 +72,60 @@
 
   <h1>The Tour Starts!</h1>
 
+  <h2>First, Colourful Wall Paintings 🎨</h2>
+
   <div class="container">
-      <h2>First, Colourful Wall Paintings 🎨</h2>
-      <div class="row">
+    <div class="row"> 
+      <!-- Each row displays 4 images for PC (12/4=3 lg),
+      3 images for tablets landscape (12/3=4 md), 2 images for tablet portrait and smartphone (12/2=6) -->
+        <div class="col-sm-6 col-md-4 col-lg-3">  
+            <img src="Img/paintings/bird.jpg" alt="Wall painting of a bird">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="Img/paintings/blondgirl.jpg" alt="Wall painting of a blond girl">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="Img/paintings/child.jpg" alt="Wall painting of a child">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="Img/paintings/colorful.jpg" alt="Colorful Wall painting of a wonan">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="Img/paintings/fish.jpg" alt="Wall painting of two fishs">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="Img/paintings/freaks.jpg" alt="Wall painting of a freaking clown">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="Img/paintings/people.jpg" alt="Wall painting of people">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="Img/paintings/saveearth.jpg" alt="Wall painting with the message Save Earth">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="Img/paintings/statue.jpg" alt="Wall painting of a statue">
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="Img/paintings/woman.jpg" alt="Wall painting of a woman">
+        </div>
+    </div>
+</div>
+
+  <!-- <div class="grid">
           <div class="col"><img src="Img/paintings/bird.jpg"></div>
-          <div class="col-4"><img src="Img/paintings/blondgirl.jpg"></div>
+          <div class="col"><img src="Img/paintings/blondgirl.jpg"></div>
           <div class="col"><img src="Img/paintings/child.jpg"></div>
-      </div>   
-      <div class="row">
           <div class="col"><img src="Img/paintings/colorful.jpg"></div>
           <div class="col"><img src="Img/paintings/fish.jpg"></div>
-      </div> 
-      <div class="row">
           <div class="col"><img src="Img/paintings/freaks.jpg"></div>
           <div class="col"><img src="Img/paintings/people.jpg"></div>
           <div class="col"><img src="Img/paintings/saveearth.jpg"></div>
-      </div>
-      <div class="row">
           <div class="col"><img src="Img/paintings/statue.jpg"></div>
           <div class="col"><img src="Img/paintings/woman.jpg"></div>
-      </div>
-      <h2>Then, Look up to the Buildings 🏙️ </h2>
-  </div>
+  </div> -->
+
+
+  <h2>Then, Look up to the Buildings 🏙️ </h2>
 
 
   <!-- Footer -->
@@ -110,7 +148,7 @@
       </div>
       <!-- /.container -->
   
-    </footer>
+  </footer>
 
 </body>
 </html>
