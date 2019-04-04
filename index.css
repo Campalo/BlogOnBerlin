@@ -12,12 +12,14 @@ header {
     opacity: 1;
     /*The title is centered in the header*/
     display: flex;
+    justify-content: flex-end;
     align-items: center; 
 }
 
 header h1 {
     line-height: 10vh;
     background-color: rgba(52, 58, 64, 0.5); /* using --gray-dark with opacity */
+    text-align: center;
 }
 
 
