@@ -2453,15 +2453,15 @@
   }
   
   .btn-secondary {
-    color: #fff;
-    background-color: #6c757d;
-    border-color: #6c757d;
+    color: #212529;
+    background-color: #fadb05;
+    border-color: #fadb05;
   }
   
   .btn-secondary:hover {
-    color: #fff;
-    background-color: #5a6268;
-    border-color: #545b62;
+    color: #212529;
+    background-color: #d5ba04;
+    border-color: #c8af04;
   }
   
   .btn-secondary:focus, .btn-secondary.focus {
