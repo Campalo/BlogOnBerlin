@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,31 +5,24 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Discover the amazing paintings and buildings here in Berlin!">
+  <meta name="description" content="Discover the amazing Wall paintings and buildings here in Berlin!">
   <meta name="author" content="Camille and Jenna">
 
-  <title>Blog Home - Start Bootstrap Template</title>
-
-  <!-- Bootstrap Custom css template for the Home page -->
+  <title>Walls in Berlin - Blog</title>
+  
+  <!-- Bootstrap Custom css template for the woleWebsite -->
   <link href="Bootstrap/bootstrap_home.css" rel="stylesheet">
-
-  <!--Bootstrap Custom css template for the Postpost page-->
-  <link href="Bootstrap/bootstrap_blog.css" rel="stylesheet">
+  <link href="Bootstrap/bootstrap_blogpost.css" rel="stylesheet">
 
   <!-- Bootstrap Custom theme for the whole Website -->
   <link href="Bootstrap/bootstrap_theme.css" rel="stylesheet">
 
-  <!-- Custom css for the Home page
-      (if necessary it will overwrite the boostrap.css, that's why it comes after in the html head)-->
-  <link href="index.css" rel="stylesheet">
+  <!-- Custom css for the Whole website page
+    (if necessary it will overwrite the boostrap.css, that's why it comes after in the html head)-->
+    <link href="main.css" rel="stylesheet">
 
-  <!-- Custom css for the Blogpost page
-  (if necessary it will overwrite the boostrap.css, that's why it comes after in the html head)-->
-  <link href="blogpost.css" rel="stylesheet">
-  
-  <!-- Custom css for the Contact page
-  (if necessary it will overwrite the boostrap.css, that's why it comes after in the html head)-->
-  <link href="contact.css" rel="stylesheet">
+  <!-- Custom css for the Home page -->
+    <link href="index.css" rel="stylesheet">
 
   <!-- Font awesome's CDN - svg version -->
   <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
@@ -38,14 +30,13 @@
 </head>
 
 <body>
-
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-primary">
     <div class="container">
       <!-- Brand -->
       <a class="navbar-brand" href="index.html">
         <!-- Homepage Logo using camera icon and Homepage name -->
-        <i class="fas fa-camera-retro"></i> <span id="blog-name">Berlin snapshots</span>
+        <h3>📷 Berlin's Walls</h3>
       </a>
       <!-- Links -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,7 +46,6 @@
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
             <a class="nav-link" href="index.html">Home
-              <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item">
@@ -79,69 +69,73 @@
     </div>
   </nav>
 
+  <header>
+      <h1 class="container text-white">Discover the Coolest Wall Paintings and Buildings in Berlin!
+      </h1>
+      <a href="gallery.html"><button class="btn btn-secondary"><b>Visit the Gallery</b></button></a>
+  </header>
+
   <!-- Page Content -->
   <div class="container">
-
+    <div class="row row_header">
+        <div class="col-lg-6 col-lg-offset-3 text-center">  
+            <h1> -  Blog Posts  - </h1>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis  dis parturient montes, nascetur ridiculus </p><br>
+        </div> 
+    </div>  
     <div class="row">
-
-      <!-- Blog Entries Column -->
-      <div class="col-md-8">
-
-        <h1 class="my-4">Page Heading
-          <small>Secondary Text</small>
-        </h1>
-
-        <!-- Blog Post -->
-        <div class="card mb-4">
-          <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
-          <div class="card-body">
-            <h2 class="card-title">Post Title</h2>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-            <a href="#" class="btn btn-primary">Read More &rarr;</a>
+        <div class="card-deck">
+          <div class="card">
+            <a href="blogpost.html#fitst_blog">
+              <img src="Img/paintings/woman.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">The Berlin Photography Guide: The top Photo Spots and Walks</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At quas, necessitatibus in rem velit voluptate repudiandae tenetur nihil id dolores libero molestiae doloremque aspernatur, sit recusandae impedit dolore vero repellendus?  
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 days ago</small></p>
+                <button class="btn btn-primary">Read more</button>
+              </div>
+            </a>
           </div>
-          <div class="card-footer text-muted">
-            Posted on January 1, 2017 by
-            <a href="#">Start Bootstrap</a>
-          </div>
-        </div>
 
-        <!-- Blog Post -->
-        <div class="card mb-4">
-          <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
-          <div class="card-body">
-            <h2 class="card-title">Post Title</h2>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-            <a href="#" class="btn btn-primary">Read More &rarr;</a>
-          </div>
-          <div class="card-footer text-muted">
-            Posted on January 1, 2017 by
-            <a href="#">Start Bootstrap</a>
-          </div>
-        </div>
+            <div class="card">
+            <a href="blogpost.html#second_blog">  
+              <img src="Img/paintings/colorful.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">The Aesthetics of Power: Inside German Bundestag and Chancellery</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis natus soluta iusto non, veniam quidem odit quod eos numquam consequuntur, fuga sunt provident beatae obcaecati architecto pariatur laborum. Tempore, recusandae.
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated a week ago</small></p>
+                <button class="btn btn-primary">Read more</button>
+              </div>
+            </a>  
+            </div>
 
-        <!-- Blog Post -->
-        <div class="card mb-4">
-          <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
-          <div class="card-body">
-            <h2 class="card-title">Post Title</h2>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-            <a href="#" class="btn btn-primary">Read More &rarr;</a>
+            <div class="card">
+            <a href="blogpost.html#third_blog">
+              <img src="Img/buildings/square.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Folsom. A Berlin Photo Essay</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, iste, architecto dolor illo tenetur voluptatibus ad consequatur eum voluptatem, nam sit numquam reiciendis facere vitae velit doloribus harum ipsum enim.
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated a week ago</small></p>
+                <button class="btn btn-primary">Read more</button>
+              </div>
+            </a>
+            </div>
           </div>
-          <div class="card-footer text-muted">
-            Posted on January 1, 2017 by
-            <a href="#">Start Bootstrap</a>
-          </div>
-        </div>
-
         <!-- Pagination -->
-        <ul class="pagination justify-content-center mb-4">
+        <!-- <ul class="pagination justify-content-center mb-4">
           <li class="page-item">
             <a class="page-link" href="#">&larr; Older</a>
           </li>
           <li class="page-item disabled">
             <a class="page-link" href="#">Newer &rarr;</a>
           </li>
-        </ul>
+        </ul> -->
 
       </div>
 
@@ -149,7 +143,7 @@
       <div class="col-md-4">
 
         <!-- Search Widget -->
-        <div class="card my-4">
+        <!-- <div class="card my-4">
           <h5 class="card-header">Search</h5>
           <div class="card-body">
             <div class="input-group">
@@ -159,10 +153,10 @@
               </span>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!-- Categories Widget -->
-        <div class="card my-4">
+        <!-- <div class="card my-4">
           <h5 class="card-header">Categories</h5>
           <div class="card-body">
             <div class="row">
@@ -194,15 +188,15 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!-- Side Widget -->
-        <div class="card my-4">
+        <!-- <div class="card my-4">
           <h5 class="card-header">Side Widget</h5>
           <div class="card-body">
             You can put anything you want inside of these side widgets. They are easy to use, and feature the new Bootstrap 4 card containers!
           </div>
-        </div>
+        </div> -->
 
       </div>
 
@@ -212,36 +206,33 @@
   </div>
   <!-- /.container -->
 
-  <!-- Footer -->
-  <footer class="py-5 bg-dark">
-    <div class="container">
-        <nav class="m-0 text-center">
-            <a href="#">Home</a>
-            <a href="blogpost.html">Articles</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="contact.html">Contact</a>
-        </nav> 
-        <p class="m-0 text-center text-white">
-          Copyright &copy; 2019 Camille 
-          <a href="https://www.linkedin.com/in/camille-charteau/"><i class="fab fa-linkedin"></i></a>
-          <a href="https://github.com/Campalo"><i class="fab fa-github-square"></i></a>
-          and Jenna
-          <a href="https://www.linkedin.com/in/kim-jenna-4292b0132"><i class="fab fa-linkedin"></i></a>
-          <a href="https://github.com/jenna1k"><i class="fab fa-github-square"></i></a>
-        </p>
-    </div>
-    <!-- /.container -->
-
-  </footer>
-
-  <!-- Bootstrap core JavaScript and Jquery for the HomePage-->
-  <script src="Bootstrap/bootstrap_home.js"></script>
-  <script src="Bootstrap/jquery_home.js"></script>
-
-  <!-- Bootstrap core JavaScript and Jquery for the BlogPostPage-->
-  <script src="Bootstrap/bootstrap_blogpost.js"></script>
-  <script src="Bootstrap/jquery_blogpost.js"></script>
-
-</body>
-
-</html>
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <nav class="m-0 text-center">
+                <a href="#">Home</a>
+                <a href="blogpost.html">Articles</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </nav> 
+            <p class="m-0 text-center text-white">
+              Copyright &copy; 2019 Camille 
+              <a href="https://www.linkedin.com/in/camille-charteau/"><i class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/Campalo"><i class="fab fa-github-square"></i></a>
+              and Jenna
+              <a href="https://www.linkedin.com/in/kim-jenna-4292b0132"><i class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/jenna1k"><i class="fab fa-github-square"></i></a>
+            </p>
+        </div>
+    
+      </footer>
+    
+      <!-- Bootstrap core JavaScript and Jquery for the Whole website-->
+      <script src="Bootstrap/bootstrap_home.js"></script>
+      <script src="Bootstrap/jquery_home.js"></script>
+      <script src="Bootstrap/bootstrap_blogpost.js"></script>
+      <script src="Bootstrap/jquery_blogpost.js"></script>
+    
+    </body>
+    
+    </html>

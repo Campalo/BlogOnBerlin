@@ -1,78 +1,97 @@
-body {
-    padding-top: 5vh;
-}
-
 /*****
-NAV
-*****/
-@media screen and (max-width: 350px) {  /*for smartphone */
-    body {
-        padding-top: 10vh;
-    }
-    .fa-camera-retro {
-        font-size: 1vh;
-        padding: 0px;
-        margin: 0px;
-    }
-    #blog-name {
-        font-size: 1vh;
-        padding: 0px;
-        margin: 0px;
-    }
-    .navbar-toggler {
-        font-size: 2vh;
-        padding: 0px;
-        margin: 0px;
-    }
-}
-
-.fa-camera-retro {
-    font-size: 3vh;
-    padding: 0px;
-    margin: 0px;
-}
-
-#blog-name {
-    font-size: 3vh;
-    padding: 0px;
-    margin: 0px;
-}
-
-/*****
-FOOTER
+HEADER
 *****/
 
-footer .container {
-    padding-left: 200px;
-    padding-right:200px;
-}
-
-footer nav {
+header {
+    background-image: url("Img/paintings/bird.jpg");
+    /*The background image covers the 80% of the viewport" */
+    height: 80%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    /*The title is centered in the header*/
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding-top: 10px;
-    padding-bottom: 30px;
+    justify-content: center;
+    align-items: center; 
 }
 
-.fa-linkedin, .fa-github-square {
-    font-size: 1.8rem;
-    margin-left: 5px;
-    margin-right: 5px;
+header h1 {
+    line-height: 10vh;
+    text-align: center;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.6);
+    background-color: rgba(240, 240, 240, 0.5); /* using --light with opacity */
 }
 
-@media screen and (max-width:768px) { /*for smartphone and tablets */
-    footer .container {
-        padding-left: 5px;
-        padding-right:5px;
-    }
-    .fa-linkedin, .fa-github-square {
-        font-size: 1rem;
-        margin-left: 1px;
-        margin-right: 1px;
-    }
-    footer p {
-    font-size: 0.8rem;
-    }
 
+/****
+ARTICLE
+*****/
+
+p {
+    text-align: justify;
 }
+
+img {
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.6);
+}
+
+span {
+    text-decoration-line: underline;
+}
+
+.article-box {
+    padding-top: 5vh;
+    padding-bottom: 5vh; 
+}
+
+.post-title {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.border {
+    border-bottom: 1px;
+    border-bottom-color: gray;
+}
+
+/* to make img same size */
+
+
+.img-size {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+/* to move to bottom */
+.author-box {
+    margin-top: auto;
+    padding-right: 3vw;
+}
+
+.article {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vw;
+    padding: 2vw;
+}
+
+#goGallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+.btn-secondary {
+    margin-top : 20px;
+    padding: 15px;
+    font-size: 1.2rem;
+}
+
