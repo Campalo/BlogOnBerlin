@@ -27,8 +27,16 @@ header h1 {
 ARTICLE
 *****/
 
+p {
+    text-align: justify;
+}
+
 img {
     box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.6);
+}
+
+span {
+    text-decoration-line: underline;
 }
 
 .article-box {
@@ -71,4 +79,18 @@ img {
     justify-content: center;
     margin-top: 2vw;
     padding: 2vw;
+}
+
+#goGallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+.btn-secondary {
+    margin-top : 20px;
+    padding: 15px;
+    font-size: 1.2rem;
 }

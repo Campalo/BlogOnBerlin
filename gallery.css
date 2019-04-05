@@ -52,3 +52,18 @@ img {
         height: 80vw;
     }
 }
+
+
+#goPost {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+.btn-secondary {
+    margin-top : 20px;
+    padding: 15px;
+    font-size: 1.2rem;
+}
